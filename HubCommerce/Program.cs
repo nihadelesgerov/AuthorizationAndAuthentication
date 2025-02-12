@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<RegistrationService>();
 builder.Services.AddSingleton<LoginService>();
+builder.Services.AddSingleton<<IAuthorizationHandler,RestrictBannedUserHandler>();
 builder.Services.AddDbContext<FakeDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
