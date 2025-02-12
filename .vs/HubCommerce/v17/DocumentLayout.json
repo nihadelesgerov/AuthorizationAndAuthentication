@@ -1,61 +1,81 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\",
+  "WorkspaceRootPath": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\authservices\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\authservices\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\authorizationservices\\restrictbanneduserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\authorizationservices\\restrictbanneduserhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\authorizationservices\\restrictbanneduserrequirments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\authorizationservices\\restrictbanneduserrequirments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\authservices\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\authservices\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\views\\home\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\models\\fakedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\models\\fakedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\models\\fakedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\source\\repos\\hubcommerce\\hubcommerce\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|c:\\users\\nihad\\dostnetreplica\\authorizartionreplica\\authorizationandauthentication\\hubcommerce\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A5888EDD-0C7D-45D5-8822-9D3627244A5C}|HubCommerce\\HubCommerce.csproj|solutionrelative:hubcommerce\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -72,11 +92,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "HubCommerce\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Controllers\\HomeController.cs",
               "RelativeToolTip": "HubCommerce\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAAAGAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAD8AAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T15:00:12.756Z",
               "IsPinned": true,
@@ -84,47 +104,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "HubCommerce\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "HubCommerce\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-29T15:12:11.162Z",
-              "IsPinned": true,
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\AuthServices\\LoginService.cs",
+              "RelativeDocumentMoniker": "HubCommerce\\AuthServices\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\AuthServices\\LoginService.cs",
+              "RelativeToolTip": "HubCommerce\\AuthServices\\LoginService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABIAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:44:36.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RegistrationService.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\AuthServices\\RegistrationService.cs",
+              "RelativeDocumentMoniker": "HubCommerce\\AuthServices\\RegistrationService.cs",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\AuthServices\\RegistrationService.cs",
+              "RelativeToolTip": "HubCommerce\\AuthServices\\RegistrationService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:43:50.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestrictBannedUserHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\AuthorizationServices\\RestrictBannedUserHandler.cs",
+              "RelativeDocumentMoniker": "HubCommerce\\AuthorizationServices\\RestrictBannedUserHandler.cs",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\AuthorizationServices\\RestrictBannedUserHandler.cs",
+              "RelativeToolTip": "HubCommerce\\AuthorizationServices\\RestrictBannedUserHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:38:57.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "HubCommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "HubCommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T17:11:36.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Home\\Login.cshtml",
-              "RelativeDocumentMoniker": "HubCommerce\\Views\\Home\\Login.cshtml",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Home\\Login.cshtml",
-              "RelativeToolTip": "HubCommerce\\Views\\Home\\Login.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T16:47:39.989Z",
+              "Title": "RestrictBannedUserRequirments.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\AuthorizationServices\\RestrictBannedUserRequirments.cs",
+              "RelativeDocumentMoniker": "HubCommerce\\AuthorizationServices\\RestrictBannedUserRequirments.cs",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\AuthorizationServices\\RestrictBannedUserRequirments.cs",
+              "RelativeToolTip": "HubCommerce\\AuthorizationServices\\RestrictBannedUserRequirments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:38:33.395Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
               "$type": "Bookmark",
@@ -132,102 +181,133 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Home\\Register.cshtml",
-              "RelativeDocumentMoniker": "HubCommerce\\Views\\Home\\Register.cshtml",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Home\\Register.cshtml",
-              "RelativeToolTip": "HubCommerce\\Views\\Home\\Register.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T15:32:17.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterModel.cs",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Models\\RegisterModel.cs",
-              "RelativeDocumentMoniker": "HubCommerce\\Models\\RegisterModel.cs",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Models\\RegisterModel.cs",
-              "RelativeToolTip": "HubCommerce\\Models\\RegisterModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T16:21:19.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Program.cs",
               "RelativeDocumentMoniker": "HubCommerce\\Program.cs",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Program.cs",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Program.cs",
               "RelativeToolTip": "HubCommerce\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACIAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T15:22:43.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminDashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Home\\AdminDashboard.cshtml",
-              "RelativeDocumentMoniker": "HubCommerce\\Views\\Home\\AdminDashboard.cshtml",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Home\\AdminDashboard.cshtml",
-              "RelativeToolTip": "HubCommerce\\Views\\Home\\AdminDashboard.cshtml",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "HubCommerce\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "HubCommerce\\Models\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-29T15:26:58.705Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:46:51.305Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "HubCommerce\\Models\\LoginModel.cs",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Models\\LoginModel.cs",
-              "RelativeToolTip": "HubCommerce\\Models\\LoginModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T16:43:57.841Z",
-              "EditorCaption": ""
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "HubCommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "HubCommerce\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T17:11:36.474Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FakeDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Models\\FakeDbContext.cs",
-              "RelativeDocumentMoniker": "HubCommerce\\Models\\FakeDbContext.cs",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Models\\FakeDbContext.cs",
-              "RelativeToolTip": "HubCommerce\\Models\\FakeDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T15:21:16.725Z",
-              "EditorCaption": ""
+              "DocumentIndex": 11,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Home\\Login.cshtml",
+              "RelativeDocumentMoniker": "HubCommerce\\Views\\Home\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Home\\Login.cshtml",
+              "RelativeToolTip": "HubCommerce\\Views\\Home\\Login.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T16:47:39.989Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\appsettings.json",
-              "RelativeDocumentMoniker": "HubCommerce\\appsettings.json",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\appsettings.json",
-              "RelativeToolTip": "HubCommerce\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-29T15:20:40.328Z",
-              "EditorCaption": ""
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "HubCommerce\\Views\\Home\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "HubCommerce\\Views\\Home\\Register.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T15:32:17.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "HubCommerce\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "HubCommerce\\Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T16:21:19.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "HubCommerce\\Views\\Home\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Home\\AdminDashboard.cshtml",
+              "RelativeToolTip": "HubCommerce\\Views\\Home\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-29T15:26:58.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "HubCommerce\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Models\\LoginModel.cs",
+              "RelativeToolTip": "HubCommerce\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T16:43:57.841Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "FakeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Models\\FakeDbContext.cs",
+              "RelativeDocumentMoniker": "HubCommerce\\Models\\FakeDbContext.cs",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Models\\FakeDbContext.cs",
+              "RelativeToolTip": "HubCommerce\\Models\\FakeDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T15:21:16.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\appsettings.json",
+              "RelativeDocumentMoniker": "HubCommerce\\appsettings.json",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\appsettings.json",
+              "RelativeToolTip": "HubCommerce\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-29T15:20:40.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "HubCommerce\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "HubCommerce\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -235,11 +315,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "HubCommerce\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "HubCommerce\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -247,11 +327,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "HubCommerce\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "HubCommerce\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

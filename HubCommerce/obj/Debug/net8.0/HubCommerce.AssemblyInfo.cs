@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HubCommerce")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7703ad451c4423bc88bca4258276bad40be2415c")]
 [assembly: System.Reflection.AssemblyProductAttribute("HubCommerce")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HubCommerce")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

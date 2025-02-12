@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dOaYhhL6sSk=",
+  "dgSpecHash": "LRp8AsLyTtE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\HubCommerce.csproj",
+  "projectFilePath": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\HubCommerce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nihad\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Nihad\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

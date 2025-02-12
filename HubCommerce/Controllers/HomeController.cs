@@ -1,7 +1,9 @@
+using HubCommerce.AuthServices;
 using HubCommerce.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Internal;
 using System.Diagnostics;
 using System.Security.Cryptography;
 
@@ -13,26 +15,25 @@ namespace HubCommerce.Controllers
         private readonly UserManager<IdentityUser> userManager;
         private readonly SignInManager<IdentityUser> signInManager;
         private readonly RoleManager<IdentityRole> roleManager;
+        private readonly LoginService loginService;
+        private readonly RegistrationService registrationService;
 
-        public HomeController(ILogger<HomeController> logger,UserManager<IdentityUser> userManager,SignInManager<IdentityUser> signInManager,RoleManager<IdentityRole> roleManager) 
+        public HomeController(ILogger<HomeController> logger,UserManager<IdentityUser> userManager,SignInManager<IdentityUser> signInManager,RoleManager<IdentityRole> roleManager,LoginService loginService,RegistrationService registrationService) 
         {
             _logger = logger;
             this.userManager = userManager;
             this.signInManager = signInManager;
             this.roleManager = roleManager;
+            this.loginService = loginService;
+            this.registrationService = registrationService;
         }
-
+        [Authorize(policy: "RestrictBannedUser")]
         public IActionResult Index()
         {
             return View();
         }
-        [Authorize]
+        [Authorize(policy: "RestrictBannedUser")]
         public IActionResult Privacy()
-        {
-            return View();
-        }
-        [Authorize(Roles="Admin")]
-        public IActionResult AdminDashboard()
         {
             return View();
         }
@@ -50,78 +51,41 @@ namespace HubCommerce.Controllers
         {
             return View();
         }
-        [ValidateAntiForgeryToken]
-        [AutoValidateAntiforgeryToken]
         [HttpPost]
+        // Used Method Parametr binding
         public async Task<IActionResult> Login(LoginModel model)
         {
             if (ModelState.IsValid)
             {
-                var result = await signInManager.PasswordSignInAsync(model.Email, model.Password, true, false);
-                if (result.Succeeded)
+               var result=  await loginService.LoginUser(model);
+                if(!result.Succeeded)
                 {
-                    return RedirectToAction("Index", "Home");
+                    _logger.LogWarning($"User with email {model.Email }tried to log in but failed ");
+                    ModelState.AddModelError("LoginFailed", "Email or password is incorrect");
+                    return View(model);
                 }
-                ModelState.AddModelError("LoginFailed", "Invalid Email or Password");
-                return View(model);
             }
             return View(model);
         }
-
-
-        [ValidateAntiForgeryToken]
         [AutoValidateAntiforgeryToken]
         [HttpPost]
         public async Task<IActionResult> Register(RegisterModel model)
         {
             if(ModelState.IsValid)
             {
-                var user = new IdentityUser
+               var result =  await registrationService.RegisterUser(model);
+                if (!result.Succeeded)
                 {
-                    UserName = model.Email,
-                    Email = model.Email,
-                };
-
-                if(model.Email == "nihadelesgerov0@gmail.com" && model.Password == "Nihad123")
-                {
-                    var adminResult = await userManager.CreateAsync(user);  
-                    if (adminResult.Succeeded)
-                    {
-                    await roleManager.CreateAsync(new IdentityRole ("Admin"));
-                    await userManager.AddToRoleAsync(user, "Admin");
-                    await signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "Home");
-
-                    }
                     ModelState.AddModelError("RegisterFailed", "Something went wrong in register process , please try again later");
+                    _logger.LogWarning($"User with email : {model.Email} failed to register");
                     return View(model);
                 }
-
-
-                var result = await userManager.CreateAsync(user,model.Password);
-                if (result.Succeeded)
-                {
-
-                    if(! await roleManager.RoleExistsAsync("User"))
-                    {
-                        await roleManager.CreateAsync(new IdentityRole ("User"));
-                        await userManager.AddToRoleAsync(user, "User");
-                        await signInManager.SignInAsync(user, isPersistent: false);
-                        return RedirectToAction("Index", "Home");
-                    }
-
-                        await userManager.AddToRoleAsync(user, "User");
-                        await signInManager.SignInAsync(user, isPersistent: false);
-                        return RedirectToAction("Index", "Home");
-                }
-                    ModelState.AddModelError("RegisterFailed", "Something went wrong in register process , please try again later");
-                    return View(model);
+                return RedirectToAction("Index");
             }
             return View(model);
         }
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        [AutoValidateAntiforgeryToken]
+        [Authorize]
         public async Task<IActionResult> LogOut()
         {
             await signInManager.SignOutAsync();

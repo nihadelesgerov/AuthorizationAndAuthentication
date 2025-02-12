@@ -1,3 +1,5 @@
+using HubCommerce.AuthorizationServices;
+using HubCommerce.AuthServices;
 using HubCommerce.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -5,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<RegistrationService>();
+builder.Services.AddSingleton<LoginService>();
 builder.Services.AddDbContext<FakeDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -26,6 +30,10 @@ builder.Services.Configure<IdentityOptions>(options =>
     options.Password.RequireLowercase = false;
     options.Password.RequireUppercase = false;
 });
+builder.Services.AddAuthorizationBuilder().AddPolicy("RestrictBannedUser", policy =>
+{
+    policy.AddRequirements(new RestrictBannedUserRequirments());
+});
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.AccessDeniedPath = "/Home/Register";
@@ -37,10 +45,10 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseStatusCodePagesWithReExecute("/Home/Error");
     app.UseHsts();
 }
-
+app.UseDeveloperExceptionPage();
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

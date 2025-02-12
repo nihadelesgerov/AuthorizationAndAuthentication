@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\HubCommerce.csproj": {}
+    "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\HubCommerce.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\HubCommerce.csproj": {
+    "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\HubCommerce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\HubCommerce.csproj",
+        "projectUniqueName": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\HubCommerce.csproj",
         "projectName": "HubCommerce",
-        "projectPath": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\HubCommerce.csproj",
+        "projectPath": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\HubCommerce.csproj",
         "packagesPath": "C:\\Users\\Nihad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nihad\\source\\repos\\HubCommerce\\HubCommerce\\obj\\",
+        "outputPath": "C:\\Users\\Nihad\\DostNetReplica\\AuthorizartionReplica\\AuthorizationAndAuthentication\\HubCommerce\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -84,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
